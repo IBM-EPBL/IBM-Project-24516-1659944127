@@ -1,0 +1,57 @@
+<body style="background-color: rgb(21, 251, 102);"></body>
+<a class="nav-item nav-link" id="login" href="/login">Login</a>
+<center> 
+<form  action = "{{ url_for('addre') }}"method="POST">
+      <h3 align="center" style="margin-top: 30px;">Sign Up</h3>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+          required
+        />
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="firstname">First Name</label> 
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter Name"
+          required
+        />
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="password1">Password</label> 
+        <input
+          type="password"
+          class="form-control"
+          id="password1"
+          name="password1"
+          placeholder="Enter Password"
+          required
+        />
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="password2">Retype Password</label> 
+        <input
+          type="password"
+          class="form-control"
+          id="password2"
+          name="password2"
+          placeholder="Retype Password"
+          required
+        />
+      </div>
+      <br/>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </center> 
+    
