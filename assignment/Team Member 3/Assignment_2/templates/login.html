@@ -1,0 +1,12 @@
+<body style="background-color: rgb(21, 251, 102);">
+  <a class="nav-item nav-link" id="signup" href="/signup">Sign Up</a>
+  <center>
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+        <h3>Login Information</h3>
+        Username<br>
+        <input type = "text" name="name"  required/></br>
+        Password<br>
+        <input type = "password" name="pass" required /></br>
+       <br> <input type = "submit" value = "submit" /><br>
+      </center>
+     </form>
