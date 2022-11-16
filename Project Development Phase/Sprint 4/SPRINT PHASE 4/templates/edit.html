@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+
+    <link rel="stylesheet" type="text/css" href="..\static\add.css">
+    <div class="container" >
+    <div class="row">
+        <div class="col-md-6">
+       <br><br><br><center> <h3>Edit Expense</h3></center> 
+        <center>
+         <div class="form-inner">
+            <form action="/update/{{expenses[0]}}" method="POST">
+                <div class="field">
+                    <input type="hidden" class="form-control"   name="" value = "{{expenses[0]}}" id="sques"></div>><br>
+                    <div class="field">
+                     <input class="form-control"  type="datetime-local" name="date" value="{{expenses[2]}}"  id="date"></div><br>
+             <script type="text/javascript">
+                       var d = new Date(value="{{expenses[2]}}" );
+                       var elem = document.getElementById("date"); 
+                       elem.value = d.toISOString().slice(0,16);
+                     </script>
+                     <div class="field">
+                <div class="form-group"> 
+                    <input class="form-control" type="text" name="expensename" value="{{expenses[3]}}" id="sques"><br>
+                </div></div>
+                <div class="field">
+                <div class="form-group">
+                      <input class="form-control"  type="number" min="0" name="amount" value="{{expenses[4]}}" id="sques"><br>
+                </div>
+            </div>
+                <div class="form-group">
+                    <label for=""></label> 
+                    <select class="form-control" name="paymode" value="{{expenses[5]}}"  id="sques">
+                        <option selected hidden>{{expenses[5]}}</option>
+                        <option value="cash">cash</option>
+                        <option value="debitcard">debitcard</option>
+                        <option value="creditcard">creditcard</option>
+                        <option value="epayment">epayment</option>
+                        <option value="onlinebanking">onlinebanking</option>
+                    
+                    </select>
+                <br>
+                 <div class="form-group">
+                    <label for=""></label>
+                    <select class="form-control" name="category" value="{{expenses[6]}}" id="sques">
+
+                         <option  selected hidden>{{expenses[6]}}</option>
+                        <option value="food">food</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="business ">Business</option>
+                        <option value="rent">Rent</option>
+                        <option value="EMI">EMI</option>
+                        <option value="other">other</option>
+            
+                    </select>
+                </div><br>
+                <div class="field btn">
+                    <input type="submit" value="UPDATE">
+                 </div>        
+            </form>
+        </center>
+        </div>
+    </div>
+</div>
+</div>
+
+    {% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+<link rel="stylesheet" type="text/css" href="..\static\home.css">
+
+<p  id="num"><b> Currently your MONTHLY limit is ₹ {{y}} </p></b>
+
+
+<form action="/limitnum" method="POST"  id="num1">
+
+    <p> ENTER the MONTHLY LIMIT to avoid over EXPENSES</p> 
+    <div class="field" id="btn" >
+    <input type="number" name="number" required/><br><br>
+    <button class="btn btn-warning" type="submit" id="btn">Submit to set Limit</button><br>
+    </div>
+
+
+
+</form>
+{% endblock %}
