@@ -1,18 +1,27 @@
-# IBM-Project-24516-1659944127
-Personal Expense Tracker Application
 
-Team ID: PNT2022TMID18464
+<div align="center">
+ <img src="https://raw.githubusercontent.com/IBM-EPBL/IBM-Project-26308-1660024385/261628f24c32e89e4ccb51cf83b839acca0504ce/Resources/Logo%20of%20IBM.svg">   
+ <h2>IBM-Project-24516-1659944127</h2>
+  </div>
+   
 
-Team Leader: PREM S R
+<h1 align="center"> Personal Expense Tracker Application </h1>
+<b><h3 align="center"> TEAM ID : PNT2022TMID18464</h3></b>
+   <h4 align="center">CATEGORY : Cloud App Development<br></h4>
+<hr>
+<h2 > TEAM MEMBERS: </h2>
+  Personal Expense Tracker Application
+  Team ID: PNT2022TMID18464
 
-Team Member 1:RAGUL C
+  Team Leader: PREM S R
 
-Team Member 2: PRAVEENKUMAR P
+  Team Member 1: RAGUL C
 
-Team Member 3: NISHANTH R
+  Team Member 2: PRAVEENKUMAR P
 
-Introduction:
+  Team Member 3: NISHANTH R
 
+# Introduction
 When it comes to tracking expenses, you can make your system as simple as collecting receipts and organizing them once a month.
 
 You might get a little more information from other expense tracking systems (listing them in a spreadsheet, using money management software or even choosing an online application), but all methods have one thing in common: you have to get in the habit of thinking about your expenses.
@@ -23,16 +32,14 @@ There are all sorts of opportunities to throw a kick into your plan to track exp
 
 This project will request the clients to add their expenses and in view of their costs ,wallet status will be refreshed which will be noticeable to the client.
 
-Motivation:
-
+# Motivation
 Many people in India live on a fixed income, and they find that towards the end of the month they don’t have sufficient money to meet their needs. While this problem can arise due to low salary, invariably it is due to poor money management skills
 
 Using a daily expense tracker can help you keep track of how much you spend every day and on what. At the end of the month, we will have a clear picture of where our money is going
 
 This project will request the clients to add their expenses and in view of their costs ,wallet status will be refreshed which will be noticeable to the client
 
-Project Workflow:
-
+# Project Workflow
 The user interacts with the application.
 
 Application will ask users to add their expenses and based on their expenses wallet balance will be updated which will be visible to the user.
@@ -43,8 +50,7 @@ They have an option to set a limit for the amount to be used for that particular
 
 Setting up Application Environment
 
-Create Flask project:
-
+Create Flask project
 Work with IBM Cloud CLI, Docker CLI, Sendgrid
 Implementation of Web Application
 
@@ -57,10 +63,12 @@ Deployment of Cloud Application
 Containerize the application
 Upload Image in IBM container directory
 Deploy on Kubernetes Cluster
-Objective
+# Objective
 Help the people to track their expenses.
 
 Alert users when they exceed the limit of their budget.
 
 A personal finance app will not only help you with budgeting and accounting but also give you helpful insights about financial management
 
+# Technical Architecture
+<img src="197016262-794eeb22-acbe-4d40-80ed-4b98041fed3f.png" width="460" height="345">
