@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="view port" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="..\static\css\home.css">
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+    <title>User page</title>
+</head>
+  <body>
+    <div class="header b-hed">
+      <div class="header-right head-jr">
+            <a class="active" href="/home">HOME <span class="sr-only">(current)</span></a>
+            <a class="active" href="/add">ADD EXPENSE </a>
+            <a class="active" href="/addamount">ADD WALLET AMOUNT</a>
+            <a class="active" href="/tot">View Spent Amount</a>
+            <a class="active" href="/display">HISTROY</a>
+            <a class="active" href="/limit">LIMIT</a>
+            <a class="active" href="/today">TODAY</a>
+            <a class="active" href="/month">MONTH</a>
+            <a class="active" href="/year">YEAR</a>
+          <a href="/logout" class="active">Logout</a>
+      </div>
+    </div>
+    <hr>
+    </body>
+    {% block body %} 
+    {% endblock %}
+</body>
+</html>

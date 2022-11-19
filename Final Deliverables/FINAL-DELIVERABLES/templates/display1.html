@@ -1,0 +1,42 @@
+
+
+{% extends 'base.html' %}
+{% block body %} 
+
+<link rel="stylesheet" type="text/css" href="..\static\css\home.css">
+
+{% for i in expense%}
+
+<div class="container "  id="num">
+   <center> 
+
+Total Amount Spend<hr><span class="btn btn-outline-dark"  id="num3" >{{expense[i]}} </span> </center>
+                   </div>
+            </div>
+
+        </div>
+    </div>
+
+
+       
+    {%endfor%}
+    {% for i in exp%}
+<hr><hr>
+<div class="container "  id="num">
+   <center> 
+
+Total Wallet Amount<hr>  <span class="btn btn-outline-dark"  id="num3" >{{exp[i]}} </span> </center>
+                   </div>
+            </div>
+
+        </div>
+    </div>
+
+
+       
+    {%endfor%}
+</div> 
+{% endblock %}
+
+
+ 

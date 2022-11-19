@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block body %}
+ <center>
+<link rel="stylesheet" type="text/css" href="..\static\css\add.css">
+<div class="container">
+    
+    <div class="row" >
+             <div class="form-container" >
+               <h1>{{msg}}</h1>
+                <center><h3>Add Expenditure</h3></center>
+               
+                <div class="form-inner">
+                   <form action="/addexpense" method="post" class="login">
+                      <div class="field">
+                        <input class="form-control" type="date" name="date" id="sques" >
+                      </div>
+                      <div class="field">
+                        <input class="form-control"  type="number" min="0" name="amount" id="sques"placeholder="Expense Amount">
+
+                    </div>
+                      <div class="field">
+                        <input class="form-control" type="text" name="expensename" id="sques" placeholder="Expense name">
+                    </div>
+                      <div class="form-group">
+                        <label for=""></label> 
+                        <select class="form-control" name="paymode" id="sques">
+                            <option  selected hidden>PAY-MODE</option>
+                            <option name="cash" value="cash">CASH</option>
+                            <option name="debitcard" value="debitcard">DEBITCARD</option>
+                            <option name="creditcard" value="creditcard">CREDIT CARD</option>
+                            <option name="epayment" value="epayment">EPAYMENT</option>
+                            <option name="onlinebanking" value="onlinebanking">ONLINE BANKING</option>
+                        
+                        </select>
+                     <div class="form-group">
+                        <label for=""></label>
+                        <select class="form-control" name="category"id="sques">
+    
+                             <option selected hidden>CATEGORY</option>
+                            <option   name = "food" value="food">FOOD</option>
+                            <option name = "entertainment" value="entertainment">ENTERTAINMENT</option>
+                            <option name = "business" value="business">BUSINESS</option>
+                            <option name ="rent" value="rent">RENT</option>
+                            <option name = "EMI" value="EMI">EMI</option>
+                            <option name = "other" value="other">OTHER</option>
+                
+                        </select>
+                    </div>
+    
+                     
+                      <div class="field btn">
+                         <input type="submit" value="ADD">
+                      </div>
+                    </div>
+        </div>
+    </div>
+    </center>
+</div>
+   
+    {% endblock %}

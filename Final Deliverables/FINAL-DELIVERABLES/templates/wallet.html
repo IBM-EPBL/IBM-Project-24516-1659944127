@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block body %}
+ <center>
+<link rel="stylesheet" type="text/css" href="..\static\css\add.css">
+<div class="container">
+    
+    <div class="row">
+             <div class="form-container">
+                <center><h3>Add Wallet Amount</h3></center>
+                <div class="form-inner">
+                   <form action="/addwallet" method="post" class="login">
+                      <div class="field">
+                        <input class="form-control"  type="number" min="0" name="amount" id="sques"placeholder="Enter a wallet Amount">
+
+                    </div>
+                      <div class="field">
+                        <input class="form-control" type="date" name="date" id="sques" >     
+                      <div class="field btn">
+                         <input type="submit" value="ADD">
+                      </div>
+                    </div>
+        </div>
+    </div>
+    </center>
+</div>
+   
+    {% endblock %}

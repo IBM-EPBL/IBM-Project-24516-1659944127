@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>signup Form</title>
+	<link rel="stylesheet" type="text/css" href="..\static\css\login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   <div class="hm-img">
+	<a href="/"><img src="https://img.icons8.com/bubbles/100/null/cottage.png" alt="homeimg"/></a>
+   </div>
+   <div class="wrapper">
+	  <center>{{msg}}</center>
+	  
+	  <div class="title-text">
+		 <div class="title login">
+			SignUp Form
+		 </div>
+	  </div>
+	  <div class="form-container">
+			<div class="slider-tab"></div>
+		<div class="form-inner">
+			<form action="/register" method="post" class="login">
+            <div class="field">
+               <input type="name" name="username" placeholder="Enter User name" required>
+             </div>
+			   <div class="field">
+				  <input type="email" name="email" placeholder="Email Address" required>
+			   </div>
+			   <div class="field">
+				  <input type="password" name="password" placeholder="Password" required>
+			   </div>
+			  
+			   <div class="field btn">
+				  <div class="btn-layer"></div>
+				  <input type="submit" value="Register">
+			   </div>
+				<center>  <a href="/signin" >LOGIN</a></center>
+			 </div>
+		</div>
+	</div>
+    <script type="text/javascript" src="..\static\js\login.js"></script>
+</body>
+</html>
