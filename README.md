@@ -1,6 +1,6 @@
 
 <div align="center">
- <img src="https://raw.githubusercontent.com/IBM-EPBL/IBM-Project-26308-1660024385/261628f24c32e89e4ccb51cf83b839acca0504ce/Resources/Logo%20of%20IBM.svg">   
+ <img src="https://github.com/IBM-EPBL/IBM-Project-24516-1659944127/blob/main/Resources/Logo.svg">   
  <h2>IBM-Project-24516-1659944127</h2>
   </div>
    
