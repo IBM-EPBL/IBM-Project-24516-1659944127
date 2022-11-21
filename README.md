@@ -72,4 +72,4 @@ Alert users when they exceed the limit of their budget.
 A personal finance app will not only help you with budgeting and accounting but also give you helpful insights about financial management
 
 # Technical Architecture
-<img src="https://github.com/IBM-EPBL/IBM-Project-24516-1659944127/blob/main/Resources/technicalarchitecture.png" width="460" height="345">
+<img src="https://github.com/IBM-EPBL/IBM-Project-24516-1659944127/blob/main/Resources/technicalarchitecture.png" width="600" height="345">
